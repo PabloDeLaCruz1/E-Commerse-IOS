@@ -3,7 +3,8 @@
 ### E-commerse app that allows for an amazon like experience. All users can add, view, and buy items, but payment processing is centralized to one location. 
 
 
-##Tab View with four categories:
+## Tab View with four categories:
+
     1. Categories
         - Can click on a category and it will load all items in that category on a new page
             - Can Click on Item and it takes you to the ItemView
@@ -13,7 +14,7 @@
             - if category.items.count == 0, handle with a proper "No Items to Dispaly" view
     2. Search 
         - Can search items by user input.
-        - ###Uses third party solution to help firebase 
+        - Uses third party solution to help firebase 
     
     3. Basket
         - Shows updated basket
@@ -30,12 +31,12 @@
             - Can edit user profile 
             - can log out
                 - User can no longer see purchase history, if you want to add to basket, will ask to log in
-##Models
+## Models
     1. Categories
     2. Users
     3. Items
 
-##Third Party Support 
+## Third Party Support 
     1. Firebase
         - Authentication 
         - Firestore
